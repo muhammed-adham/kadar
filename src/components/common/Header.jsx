@@ -6,6 +6,7 @@ import { GrLanguage } from "react-icons/gr";
 import { BsSun } from "react-icons/bs";
 import { PiMoonLight } from "react-icons/pi";
 import { ThemeContext } from "../../context/ThemeContext";
+import { FaBars } from "react-icons/fa";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -167,7 +168,8 @@ const Header = () => {
             data-bs-target="#navbarCollapse"
             onClick={handleToggle}
           >
-            <span class="fa fa-bars"></span>
+            {/* <span class="fa fa-bars"></span> */}
+            <FaBars />
           </button>
           {/* <!--Toggler End Mobile Version--> */}
 

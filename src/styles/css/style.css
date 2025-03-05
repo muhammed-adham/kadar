@@ -1074,6 +1074,7 @@ button {
   .bg-primary{
     background-color: #064677 !important;
   }
+  --bs-dark:#00a2ff ;
   .text-dark, .text-primary{
     color:#00a2ff !important;
   }
