@@ -294,7 +294,7 @@ const Header = () => {
             </div>
             {/* <!-- Search Start--> */}
             <button
-              class="btn btn-primary btn-md-square border-secondary end-0"
+              class="btn btn-primary btn-md-square border-secondary start-0"
               data-bs-toggle="modal"
               data-bs-target="#searchModal"
             >
