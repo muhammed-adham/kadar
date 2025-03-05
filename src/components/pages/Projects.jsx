@@ -8,32 +8,32 @@ const Projects = () => {
     {
       title: "Transport Vehicles",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/pro-1.jpg",
+      url: "/images/pro-1.jpg",
     },
     {
       title: "Transport Vehicles",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/pro-2.jpg",
+      url: "/images/pro-2.jpg",
     },
     {
       title: "Transport Vehicles",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/pro-3.jpg",
+      url: "/images/pro-3.jpg",
     },
     {
       title: "Transport Vehicles",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/pro-4.jpg",
+      url: "/images/pro-4.jpg",
     },
     {
       title: "Transport Vehicles",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/pro-5.jpg",
+      url: "/images/pro-5.jpg",
     },
     {
       title: "Transport Vehicles",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/pro-6.jpg",
+      url: "/images/pro-6.jpg",
     },
   ];
   const { direction } = useDirection();

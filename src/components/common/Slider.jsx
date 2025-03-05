@@ -12,19 +12,19 @@ const Slider = () => {
       title: "Technology Centers",
       subTitle: "Diverse Industries, Unified Excellence",
       text: "Explore our state-of-the-art technology centers, equipped with cutting-edge tools and innovations. Designed to support businesses in staying ahead in the digital age, our centers provide the perfect environment for growth and innovation.",
-      url: "./src/assets/images/b-1.jpg",
+      url: "/images/b-1.jpg",
     },
     {
       title: "Home Furniture",
       subTitle: "Diverse Industries, Unified Excellence",
       text: "Transform your living spaces with our premium home furniture collection. From modern sofas to elegant dining sets, we offer stylish, functional, and comfortable solutions for every home.",
-      url: "./src/assets/images/prd-3.webp",
+      url: "/images/prd-3.webp",
     },
     {
       title: "Electronic Motorbikes",
       subTitle: "Diverse Industries, Unified Excellence",
       text: "Discover our range of eco-friendly electronic motorbikes, designed for efficiency, performance, and sustainability. Perfect for urban commuting, our bikes combine innovation with style.",
-      url: "./src/assets/images/b-2.jpg",
+      url: "/images/b-2.jpg",
     },
   ];
 
@@ -33,19 +33,19 @@ const Slider = () => {
       title: "مراكز التكنولوجيا",
       subTitle: "صناعات متنوعة، تميز موحد",
       text: "اكتشف مراكز التكنولوجيا الحديثة لدينا والمجهزة بأحدث الأدوات والابتكارات. مصممة لدعم الشركات في البقاء في المقدمة في العصر الرقمي، توفر مراكزنا البيئة المثالية للنمو والابتكار.",
-      url: "./src/assets/images/b-1.jpg",
+      url: "/images/b-1.jpg",
     },
     {
       title: "أثاث المنزل",
       subTitle: "صناعات متنوعة، تميز موحد",
       text: "حوّل مساحات معيشتك مع مجموعة أثاث المنزل الفاخرة لدينا. من الأرائك العصرية إلى طقم غرف الطعام الأنيقة، نقدم حلولاً أنيقة وعملية ومريحة لكل منزل.",
-      url: "./src/assets/images/prd-3.webp",
+      url: "/images/prd-3.webp",
     },
     {
       title: "المركبات الإلكترونية",
       subTitle: "صناعات متنوعة، تميز موحد",
       text: "اكتشف مجموعة المركبات الإلكترونية الصديقة للبيئة، المصممة للكفاءة والأداء والاستدامة. مثالية للتنقل الحضري، تجمع مركباتنا بين الابتكار والأناقة.",
-      url: "./src/assets/images/b-2.jpg",
+      url: "/images/b-2.jpg",
     },
   ];
 
@@ -117,7 +117,7 @@ const Slider = () => {
             ))}
             {/* <div class="carousel-item active">
               <img
-                src="./src/assets/images/b-2.jpg"
+                src="/images/b-2.jpg"
                 class="img-fluid"
                 alt="Image"
                 style={{ height: "100%", width: "100%", objectFit: "cover" }}
@@ -156,7 +156,7 @@ const Slider = () => {
             </div>
             <div class="carousel-item">
               <img
-                src="./src/assets/images/b-1.jpg"
+                src="/images/b-1.jpg"
                 class="img-fluid"
                 alt="Image"
                 style={{ height: "100%", width: "100%", objectFit: "cover" }}
@@ -195,7 +195,7 @@ const Slider = () => {
             </div>
             <div class="carousel-item">
               <img
-                src="./src/assets/images/prd-3.webp"
+                src="/images/prd-3.webp"
                 class="img-fluid"
                 alt="Image"
                 style={{ height: "100%", width: "100%", objectFit: "cover" }}

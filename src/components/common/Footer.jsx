@@ -206,7 +206,7 @@ const Footer = () => {
                   />
                   <button
                     type="button"
-                    class="btn btn-primary  position-absolute top-0 end-0 h-100 rounded-0 border-0"
+                    class="btn btn-primary  position-absolute top-0 start-0 h-100 rounded-0 border-0"
                   >
                     {direction === "ltr" ? `SignUp` : `اشتراك`}
                   </button>
@@ -241,25 +241,25 @@ const Footer = () => {
             <div class="col-md-6 col-lg-6 col-xl-6 ps-auto">
               <div class="footer-item d-flex justify-content-end gap-.5">
                 <img
-                  src="./src/assets/images/pay-4.svg"
+                  src="/images/pay-4.svg"
                   alt="img"
                   className="px-2"
                   style={{ height: "1.2rem", objectFit: "contain" }}
                 />
                 <img
-                  src="./src/assets/images/pay-3.svg"
+                  src="/images/pay-3.svg"
                   alt="img"
                   className="px-2"
                   style={{ height: "1.2rem", objectFit: "contain" }}
                 />
                 <img
-                  src={`./src/assets/images/pay-1${themeState==="dark"?"-white":""}.svg`}
+                  src={`/images/pay-1${themeState==="dark"?"-white":""}.svg`}
                   alt="img"
                   className="px-2"
                   style={{ height: "1.2rem", objectFit: "contain" }}
                 />
                 <img
-                  src={`./src/assets/images/pay-2${themeState==="dark"?"-white":""}.svg`}
+                  src={`/images/pay-2${themeState==="dark"?"-white":""}.svg`}
                   alt="img"
                   className="px-2"
                   style={{ height: "1.2rem", objectFit: "contain" }}

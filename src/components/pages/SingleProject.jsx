@@ -32,8 +32,8 @@ import { useDirection } from "../../context/DirectionContext";
 const SingleProject = () => {
   const images = [
     {
-      original: "../src/assets/images/pro-1.jpg",
-      thumbnail: "../src/assets/images/pro-1.jpg",
+      original: "/images/pro-1.jpg",
+      thumbnail: "/images/pro-1.jpg",
       originalWidth: 600, // Custom width for original
       originalHeight: 600, // Custom height for original
       thumbnailWidth: 100, // Custom width for thumbnail
@@ -41,8 +41,8 @@ const SingleProject = () => {
       loading: "eager",
     },
     {
-      original: "../src/assets/images/pro-2.jpg",
-      thumbnail: "../src/assets/images/pro-2.jpg",
+      original: "/images/pro-2.jpg",
+      thumbnail: "/images/pro-2.jpg",
       originalWidth: 600, // Custom width for original
       originalHeight: 600, // Custom height for original
       thumbnailWidth: 100, // Custom width for thumbnail
@@ -50,8 +50,8 @@ const SingleProject = () => {
       loading: "eager",
     },
     {
-      original: "../src/assets/images/pro-3.jpg",
-      thumbnail: "../src/assets/images/pro-3.jpg",
+      original: "/images/pro-3.jpg",
+      thumbnail: "/images/pro-3.jpg",
       originalWidth: 600, // Custom width for original
       originalHeight: 600, // Custom height for original
       thumbnailWidth: 100, // Custom width for thumbnail
@@ -59,8 +59,8 @@ const SingleProject = () => {
       loading: "eager",
     },
     {
-      original: "../src/assets/images/pro-4.jpg",
-      thumbnail: "../src/assets/images/pro-4.jpg",
+      original: "/images/pro-4.jpg",
+      thumbnail: "/images/pro-4.jpg",
       originalWidth: 600, // Custom width for original
       originalHeight: 600, // Custom height for original
       thumbnailWidth: 100, // Custom width for thumbnail
@@ -68,8 +68,8 @@ const SingleProject = () => {
       loading: "eager",
     },
     {
-      original: "../src/assets/images/pro-5.jpg",
-      thumbnail: "../src/assets/images/pro-5.jpg",
+      original: "/images/pro-5.jpg",
+      thumbnail: "/images/pro-5.jpg",
       originalWidth: 600, // Custom width for original
       originalHeight: 600, // Custom height for original
       thumbnailWidth: 100, // Custom width for thumbnail

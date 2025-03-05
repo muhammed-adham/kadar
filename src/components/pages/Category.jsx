@@ -7,32 +7,32 @@ const Category = () => {
     {
       title: "Civilian Products",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/b-2.jpg",
+      url: "/images/b-2.jpg",
     },
     {
       title: "Furnish Your Home Initiative",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/ctg-8.jpg",
+      url: "/images/ctg-8.jpg",
     },
     {
       title: "Hotel Furniture",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/b-8.jpg",
+      url: "/images/b-8.jpg",
     },
     {
       title: "Al-Ahly Bank Initiative",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/b-4.jpg",
+      url: "/images/b-4.jpg",
     },
     {
       title: "Corporate Products",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/ctg-3.jpg",
+      url: "/images/ctg-3.jpg",
     },
     {
       title: "Military Products",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/b-6.avif",
+      url: "/images/b-6.avif",
     },
   ];
   const { direction } = useDirection();

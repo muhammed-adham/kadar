@@ -17,22 +17,22 @@ const News = () => {
     {
       title: "Transport Vehicles",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/news-1.webp",
+      url: "/images/news-1.webp",
     },
     {
       title: "Transport Vehicles",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/news-2.webp",
+      url: "/images/news-2.webp",
     },
     {
       title: "Transport Vehicles",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/news-5.webp",
+      url: "/images/news-5.webp",
     },
     {
       title: "Transport Vehicles",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "./src/assets/images/news-4.webp",
+      url: "/images/news-4.webp",
     },
   ];
 

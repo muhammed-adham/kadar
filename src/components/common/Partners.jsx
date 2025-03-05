@@ -13,13 +13,13 @@ const Partners = () => {
   
 
   const partners = [
-    "./src/assets/images/prtnr-1.WEBP",
-    "./src/assets/images/prtnr-2.WEBP",
-    "./src/assets/images/prtnr-3.WEBP",
-    "./src/assets/images/prtnr-7.WEBP",
-    "./src/assets/images/prtnr-4.WEBP",
-    "./src/assets/images/prtnr-5.WEBP",
-    "./src/assets/images/prtnr-6.WEBP",
+    "/images/prtnr-1.webp",
+    "/images/prtnr-2.webp",
+    "/images/prtnr-3.webp",
+    "/images/prtnr-7.webp",
+    "/images/prtnr-4.webp",
+    "/images/prtnr-5.webp",
+    "/images/prtnr-6.webp",
   ];
   return (
     <>

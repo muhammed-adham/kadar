@@ -155,7 +155,7 @@ const Videos = () => {
                   </div>
                   <div class="country-flag">
                     <img
-                      src={"./src/assets/images/youtube.png"}
+                      src={"/images/youtube.png"}
                       style={{
                         height: "100%",
                         width: "100%",

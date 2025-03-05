@@ -9,21 +9,21 @@ const About = () => {
       subTitle: "Our Vision",
       paragraph:
         "To become a global leader in industrial and technological innovation, recognized for our ability to drive sustainable development and deliver cutting-edge solutions that shape the future of Egypt, the Arab world, and beyond.",
-      url: "./src/assets/images/news-1.webp",
+      url: "/images/news-1.webp",
     },
     {
       title: "Driving Excellence and Innovation",
       subTitle: "Our Goal",
       paragraph:
         "To deliver high-quality, innovative solutions that meet the needs of our clients and partners. We aim to exceed expectations by leveraging our expertise, advanced technology, and commitment to excellence in every project we undertake.",
-      url: "./src/assets/images/news-2.webp",
+      url: "/images/news-2.webp",
     },
     {
       title: "Guided by Integrity and Collaboration",
       subTitle: "Our Values",
       paragraph:
         "We are committed to operating with integrity, fostering innovation, and achieving excellence in all our endeavors. Through collaboration and teamwork, we strive to build lasting partnerships and create a positive impact on society.",
-      url: "./src/assets/images/news-3.webp",
+      url: "/images/news-3.webp",
     },
   ];
   const dataArrayAr = [
@@ -32,21 +32,21 @@ const About = () => {
       subTitle: "رؤيتنا",
       paragraph:
         "أن نصبح روادًا عالميين في الابتكار الصناعي والتكنولوجي، معترفًا بنا لقدرتنا على دفع عجلة التنمية المستدامة وتقديم حلول متطورة تشكل مستقبل مصر والعالم العربي وما بعده.",
-      url: "./src/assets/images/news-1.webp",
+      url: "/images/news-1.webp",
     },
     {
       title: "قيادة التميز والابتكار",
       subTitle: "هدفنا",
       paragraph:
         "تقديم حلول عالية الجودة ومبتكرة تلبي احتياجات عملائنا وشركائنا. نهدف إلى تجاوز التوقعات من خلال الاستفادة من خبراتنا وتكنولوجيتنا المتقدمة والتزامنا بالتميز في كل مشروع نقوم به.",
-      url: "./src/assets/images/news-2.webp",
+      url: "/images/news-2.webp",
     },
     {
       title: "نحو النزاهة والتعاون",
       subTitle: "قيمنا",
       paragraph:
         "نحن ملتزمون بالعمل بنزاهة، وتعزيز الابتكار، وتحقيق التميز في جميع مساعينا. من خلال التعاون والعمل الجماعي، نسعى لبناء شراكات دائمة وإحداث تأثير إيجابي على المجتمع.",
-      url: "./src/assets/images/news-3.webp",
+      url: "/images/news-3.webp",
     },
   ];
   const dataMainArrayAr =[ {
@@ -75,7 +75,7 @@ const About = () => {
                 style={{ height: "100%", width: "100%" }}
               >
                 <img
-                  src="./src/assets/images/about.webp"
+                  src="/images/about.webp"
                   class="img-fluid w-100"
                   style={{
                     marginBottom: "-7px",

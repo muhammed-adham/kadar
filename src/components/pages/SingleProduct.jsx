@@ -32,8 +32,8 @@ import { useDirection } from "../../context/DirectionContext";
 const SingleProduct = () => {
   const images = [
     {
-      original: "./src/assets/images/sprd-1.webp",
-      thumbnail: "./src/assets/images/sprd-1.webp",
+      original: "/images/sprd-1.webp",
+      thumbnail: "/images/sprd-1.webp",
       originalWidth: 600, // Custom width for original
       originalHeight: 600, // Custom height for original
       thumbnailWidth: 100, // Custom width for thumbnail
@@ -41,8 +41,8 @@ const SingleProduct = () => {
       loading: "eager",
     },
     {
-      original: "./src/assets/images/sprd-2.webp",
-      thumbnail: "./src/assets/images/sprd-2.webp",
+      original: "/images/sprd-2.webp",
+      thumbnail: "/images/sprd-2.webp",
       originalWidth: 600, // Custom width for original
       originalHeight: 600, // Custom height for original
       thumbnailWidth: 100, // Custom width for thumbnail
@@ -50,8 +50,8 @@ const SingleProduct = () => {
       loading: "eager",
     },
     {
-      original: "./src/assets/images/sprd-3.webp",
-      thumbnail: "./src/assets/images/sprd-3.webp",
+      original: "/images/sprd-3.webp",
+      thumbnail: "/images/sprd-3.webp",
       originalWidth: 600, // Custom width for original
       originalHeight: 600, // Custom height for original
       thumbnailWidth: 100, // Custom width for thumbnail
@@ -59,8 +59,8 @@ const SingleProduct = () => {
       loading: "eager",
     },
     {
-      original: "./src/assets/images/sprd-4.webp",
-      thumbnail: "./src/assets/images/sprd-4.webp",
+      original: "/images/sprd-4.webp",
+      thumbnail: "/images/sprd-4.webp",
       originalWidth: 600, // Custom width for original
       originalHeight: 600, // Custom height for original
       thumbnailWidth: 100, // Custom width for thumbnail
@@ -68,8 +68,8 @@ const SingleProduct = () => {
       loading: "eager",
     },
     {
-      original: "./src/assets/images/sprd-5.webp",
-      thumbnail: "./src/assets/images/sprd-5.webp",
+      original: "/images/sprd-5.webp",
+      thumbnail: "/images/sprd-5.webp",
       originalWidth: 600, // Custom width for original
       originalHeight: 600, // Custom height for original
       thumbnailWidth: 100, // Custom width for thumbnail

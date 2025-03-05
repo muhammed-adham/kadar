@@ -9,19 +9,19 @@ const Products = () => {
     {
       title: "مدرعات النقل",
       desc: "اكتشف مجموعة واسعة من مركبات النقل عالية الجودة المصممة للكفاءة والمتانة والأداء. سواء للاستخدام الشخصي أو التجاري، تم بناء مركباتنا لتلبية احتياجاتك وتجاوز توقعاتك.",
-      url: "./src/assets/images/b-5.jpg",
+      url: "/images/b-5.jpg",
       buttonText: "استكشف المزيد",
     },
     {
       title: "أثاث المكاتب",
       desc: "حوّل مساحة عملك مع مجموعة أثاث المكاتب الفاخرة لدينا. من الكراسي المريحة إلى المكاتب العصرية، نقدم حلولاً أنيقة وعملية ومريحة لكل بيئة مكتبية.",
-      url: "./src/assets/images/ctg-2.webp",
+      url: "/images/ctg-2.webp",
       buttonText: "استكشف المزيد",
     },
     {
       title: "مراكز التكنولوجيا",
       desc: "اكتشف مراكز التكنولوجيا الحديثة لدينا والمجهزة بأحدث الأدوات والابتكارات. مثالية للشركات التي تتطلع إلى البقاء في المقدمة في العصر الرقمي ودفع عجلة الابتكار.",
-      url: "./src/assets/images/b-7.jpg",
+      url: "/images/b-7.jpg",
       buttonText: "استكشف المزيد",
     },
   ];
@@ -30,19 +30,19 @@ const Products = () => {
     {
       title: "Transport Vehicles",
       desc: "Explore our wide range of high-quality transport vehicles designed for efficiency, durability, and performance. Whether for personal or commercial use, our vehicles are built to meet your needs and exceed your expectations.",
-      url: "./src/assets/images/b-5.jpg",
+      url: "/images/b-5.jpg",
       buttonText: "Explore More",
     },
     {
       title: "Office Furniture",
       desc: "Transform your workspace with our premium office furniture collection. From ergonomic chairs to modern desks, we offer stylish, functional, and comfortable solutions for every office environment.",
-      url: "./src/assets/images/ctg-2.webp",
+      url: "/images/ctg-2.webp",
       buttonText: "Explore More",
     },
     {
       title: "Technology Centers",
       desc: "Discover our state-of-the-art technology centers equipped with the latest tools and innovations. Perfect for businesses looking to stay ahead in the digital age and drive innovation.",
-      url: "./src/assets/images/b-7.jpg",
+      url: "/images/b-7.jpg",
       buttonText: "Explore More",
     },
   ];

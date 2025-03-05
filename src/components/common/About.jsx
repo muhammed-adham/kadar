@@ -29,7 +29,7 @@ const About = () => {
                 style={{ height: "100%", width: "100%" }}
               >
                 <img
-                  src="./src/assets/images/about.webp"
+                  src="/images/about.webp"
                   class="img-fluid w-100"
                   style={{
                     marginBottom: " -7px",

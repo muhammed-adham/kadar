@@ -144,13 +144,13 @@ const Header = () => {
               {themeState==="light"?
               
               <img
-                src="./src/assets/images/logo-kader.png"
+                src="/images/logo-kader.png"
                 class="img-fluid"
                 alt="KADER"
               />
               :
               <img
-                src="./src/assets/images/logo-kader-white.png"
+                src="/images/logo-kader-white.png"
                 class="img-fluid"
                 alt="KADER"
               />
@@ -178,7 +178,7 @@ const Header = () => {
             } id="navbarCollapse`}
           >
             {/* <!--Main Links Start--> */}
-            <div class="navbar-nav ms-auto py-0">
+            <div class="navbar-nav me-auto py-0">
               {(direction === "ltr" ? pageLinks : pageLinksAr).map(
                 (link, idx) =>
                   link.dropdown ? (
@@ -206,8 +206,9 @@ const Header = () => {
                             className="dropdown-item"
                             onClick={() => {
                               navigate(dropdownItem.path, {
-                                state: { data: dropdownItem.label },
+                                state: { data: dropdownItem.label }
                               });
+                              scroll(0,0)
                             }} // Call the updated function
                           >
                             {dropdownItem.label}
