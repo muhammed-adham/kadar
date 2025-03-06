@@ -9,7 +9,6 @@ const OverlayModal = ({
   mediaType,
   imgSrc,
 }) => {
-
   if (!show) return null; // Don't render if not shown
 
   return (
@@ -19,15 +18,25 @@ const OverlayModal = ({
         onClick={(e) => e.stopPropagation()}
       >
         <button
-          className="close-btn btn btn-primary rounded-circle"
+          className="close-btn btn btn-primary rounded-circle p-2"
           onClick={handleClose}
+          // style={{width:"2rem", height:"2rem"}}
         >
-          ✖
+          <i class="fa bi-x fs-3"></i>
         </button>
         <div className="row w-100 h-100 m-auto g-2 ">
-          <div className="col-12 col-md-12 col-lg-6 ">
+          <div
+            className={`col-12 col-md-12 col-lg-6 ${
+              window.innerWidth > 768 ? "h-100" : ""
+            } `}
+          >
             {mediaType === "image" ? (
-              <img src={imgSrc} alt={title} className="img-fluid"  style={{width:"100%", height:"100%", objectFit:"cover"}}/>
+              <img
+                src={imgSrc}
+                alt={title}
+                className="img-fluid"
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              />
             ) : (
               <iframe
                 width="100%"
@@ -40,8 +49,13 @@ const OverlayModal = ({
               ></iframe>
             )}
           </div>
-          <div className="col-12 col-lg-6 overlay-header" style={{overflowY:"scroll", height:"100%"}}>
-            <h2 className="text-white">{title}</h2>
+          <div className="col-12 col-lg-6 overlay-header">
+            <h2 className="text-white py-2">
+              {title}
+              {title}
+              {title}
+              {title} {title}
+            </h2>
             <p>{description}</p>
           </div>
         </div>

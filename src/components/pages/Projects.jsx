@@ -95,7 +95,7 @@ const Projects = () => {
                     </div>
                   </div>
                   <div class="training-content bg-secondary rounded-bottom p-4">
-                    <a href="projects/123456">
+                    <a href="projects/single-project">
                       <h4 class="text-white">{prd.title}</h4>
                     </a>
                     <p class="text-white-50">
@@ -104,7 +104,7 @@ const Projects = () => {
                     </p>
                     <a
                       class="btn btn-secondary rounded-pill text-white p-0"
-                      href="projects/123456"
+                      href="projects/single-project"
                     >
                       Read More{" "}
                       <i

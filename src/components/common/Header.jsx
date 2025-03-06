@@ -91,7 +91,7 @@ const Header = () => {
     window.location.reload();
   };
 
-/*   // Dark mode state
+  /*   // Dark mode state
   const [themeState, setThemeState] = useState();
 
   // Get prefer color schema from local storage or operating system if no explicit theme is specified before
@@ -132,30 +132,45 @@ const Header = () => {
       darkMode();
     }
   }; */
-
+  const [isSticky, setIsSticky] = useState(false);
   const { themeState, toggleHandler } = useContext(ThemeContext);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 45) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <>
-      <div class="container-fluid nav-bar p-0">
+      <div class={`container-fluid nav-bar p-0 ${isSticky ? 'sticky-top shadow-sm' : ''}`}>
         <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
           {/* <!-- Logo Start--> */}
           <Link to={"/"} class="navbar-brand p-0" onClick={() => scroll(0, 0)}>
             <h1 class="display-5 text-secondary m-0">
-              {themeState==="light"?
-              
-              <img
-                src="/images/logo-kader.png"
-                class="img-fluid"
-                alt="KADER"
-              />
-              :
-              <img
-                src="/images/logo-kader-white.png"
-                class="img-fluid"
-                alt="KADER"
-              />
-              }
+              {themeState === "light" ? (
+                <img
+                  src="/images/logo-kader.png"
+                  class="img-fluid"
+                  alt="KADER"
+                />
+              ) : (
+                <img
+                  src="/images/logo-kader-white.png"
+                  class="img-fluid"
+                  alt="KADER"
+                />
+              )}
             </h1>
           </Link>
           {/* <!-- Logo End--> */}
@@ -208,9 +223,9 @@ const Header = () => {
                             className="dropdown-item"
                             onClick={() => {
                               navigate(dropdownItem.path, {
-                                state: { data: dropdownItem.label }
+                                state: { data: dropdownItem.label },
                               });
-                              scroll(0,0)
+                              scroll(0, 0);
                             }} // Call the updated function
                           >
                             {dropdownItem.label}
@@ -243,10 +258,11 @@ const Header = () => {
                   data-bs-toggle="dropdown"
                 >
                   <span class="dropdown-toggle">
-                  {themeState === "dark"? 
-                  <PiMoonLight className="mx-1"/>:
-                    <BsSun className="mx-1" />
-                }
+                    {themeState === "dark" ? (
+                      <PiMoonLight className="mx-1" />
+                    ) : (
+                      <BsSun className="mx-1" />
+                    )}
                     {direction === `ltr` ? `Theme` : `الوضع `}
                   </span>
                 </div>

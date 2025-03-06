@@ -995,11 +995,21 @@
   /* border-radius: 8px; */
   padding: 20px;
   width: 80%; /* Adjust width as needed */
-  width: 70dvw; /* Maximum width */
-  height: 70dvh; /* Maximum heigh */
-  max-width: 70dvw; /* Maximum width */
-  max-height: 70dvh; /* Maximum heigh */
+  width: 80dvw; /* Maximum width */
+  height: 80dvh; /* Maximum heigh */
+  max-width: 80dvw; /* Maximum width */
+  max-height: 80dvh; /* Maximum heigh */
 }
+
+.overlay-header{
+  height: 80% !important;
+  overflow-y: scroll;
+}
+
+/* .overlay-header p{
+  height: 60% !important;
+  overflow-y: scroll;
+} */
 
 .overlay .close-btn {
   position: absolute;
