@@ -90,6 +90,7 @@ const News = () => {
           <div class="row g-4">
             {dataArray.map((prd, idx) => (
               <div
+                key={idx}
                 class="col-lg-6 col-lg-6 col-xl-6 wow fadeInUp "
                 data-wow-delay="0.1s"
               >

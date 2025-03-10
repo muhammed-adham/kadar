@@ -1002,7 +1002,7 @@
 }
 
 .overlay-header{
-  height: 80% !important;
+  height: 100% !important;
   overflow-y: scroll;
 }
 
@@ -1024,7 +1024,7 @@
 
 @media (max-width: 768px) {
   .overlay-header {
-    height: 75% !important;
+    height: 70% !important;
   }
   .navbar-collapse button {
     position: absolute;

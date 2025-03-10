@@ -52,9 +52,6 @@ const OverlayModal = ({
           <div className="col-12 col-lg-6 overlay-header">
             <h2 className="text-white py-2">
               {title}
-              {title}
-              {title}
-              {title} {title}
             </h2>
             <p>{description}</p>
           </div>
