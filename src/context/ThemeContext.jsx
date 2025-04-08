@@ -22,6 +22,7 @@ export const ThemeProvider = ({ children }) => {
     document.querySelector("body").setAttribute("data-theme", "dark");
     localStorage.setItem("theme", "dark");
     setThemeState("dark");
+    
   };
 
   const lightMode = () => {

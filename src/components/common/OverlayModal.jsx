@@ -19,10 +19,12 @@ const OverlayModal = ({
       >
         <button
           className="close-btn btn btn-primary rounded-circle p-2"
-          onClick={handleClose}
+        style={{width:"3rem", height:"3rem"}}
+        onClick={handleClose}
           // style={{width:"2rem", height:"2rem"}}
         >
-          <i class="fa bi-x fs-3"></i>
+          ✖
+          {/* <i class="fa bi-x fs-3"></i> */}
         </button>
         <div className="row w-100 h-100 m-auto g-2 ">
           <div
@@ -49,7 +51,7 @@ const OverlayModal = ({
               ></iframe>
             )}
           </div>
-          <div className="col-12 col-lg-6 overlay-header">
+          <div className="col-12 col-lg-6 overlay-header px-4">
             <h2 className="text-white py-2">
               {title}
             </h2>

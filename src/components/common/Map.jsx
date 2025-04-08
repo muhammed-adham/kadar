@@ -5,7 +5,7 @@ const Map = () => {
   const { direction } = useDirection();
   return (
     <>
-      <div class="container-fluid contact overflow-hidden py-5 bg-white">
+      <div class="container-fluid contact overflow-hidden py-5">
         <div class="container py-5">
           <div class="row g-5 ">
             <div
@@ -104,7 +104,7 @@ const Map = () => {
             </div>
 
             <div
-              class="col-lg-6 wow fadeInUp shadow p-5"
+              class="col-lg-6 wow fadeInUp shadow p-5 bg-white"
               data-wow-delay="0.3s"
             >
               <div class="sub-style">

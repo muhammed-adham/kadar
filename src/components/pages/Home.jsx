@@ -6,6 +6,7 @@ import News from '../common/News';
 import Partners from '../common/Partners';
 import Ad from '../common/Ad';
 import Map from '../common/Map';
+import Projects from '../common/Projects';
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
       {/* <Ad/> */}
       <Products/>
       <News/>
+      <Projects/>
       <Partners/>
       <Map/>
     </>

@@ -3,7 +3,7 @@ import { useDirection } from "../../context/DirectionContext";
 import OverlayModal from "./OverlayModal";
 import { Link } from "react-router";
 
-const News = () => {
+const Projects = () => {
   const { direction } = useDirection();
   const [show, setShow] = useState(false);
   const [selectedItem, setSelectedItem] = useState({});
@@ -17,23 +17,23 @@ const News = () => {
     {
       title: "Transport Vehicles",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "/images/news-1.webp",
+      url: "/images/pro-1.jpg",
     },
     {
       title: "Transport Vehicles",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "/images/news-2.webp",
+      url: "/images/pro-2.jpg",
     },
     {
       title: "Transport Vehicles",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-      url: "/images/news-5.webp",
+      url: "/images/pro-5.jpg",
     },
-    // {
-    //   title: "Transport Vehicles",
-    //   desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
-    //   url: "/images/news-4.webp",
-    // },
+    {
+      title: "Transport Vehicles",
+      desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.",
+      url: "/images/pro-4.jpg",
+    },
   ];
 
   return (
@@ -56,28 +56,28 @@ const News = () => {
             >
               <div class="sub-style">
                 <h5 class="sub-title text-primary px-3">
-                  {direction === "ltr" ? "news" : "أحدث الأخبار"}
+                  {direction === "ltr" ? "projects" : "أحدث المشاريع"}
                 </h5>
               </div>
               <h1 class="display-5 mb-4">
                 {direction === "ltr"
-                  ? "Here Is Our Latest News"
-                  : "إليكم أحدث أخبارنا"}
+                  ? "Discover Our Newest Projects"
+                  : "نظرة على أحدث مشاريعنا"}
               </h1>
               <p className="mb-0">
                 {direction === "ltr"
-                  ? "Stay updated with the latest developments, announcements, and insights from our team. From exciting new projects to industry trends and success stories, our news section keeps you informed about everything happening in our world. Explore our updates and discover how we’re making an impact.  "
-                  : "ابقوا على اطلاع بآخر التطورات والإعلانات والرؤى من فريقنا. من المشاريع الجديدة المثيرة إلى اتجاهات الصناعة وقصص النجاح، يبقيكم قسم الأخبار لدينا على علم بكل ما يحدث في عالمنا. اكتشفوا آخر تحديثاتنا وتعرفوا على كيفية صنعنا للتأثير."}
+                  ? "Discover our most recent ambitious projects and ongoing efforts. We provide a glimpse into the projects currently underway, the innovations we are leading, and the solutions we strive to deliver. Stay informed about our journey towards achieving our goals and making a difference."
+                  : "تعرفوا على آخر مشاريعنا الطموحة وجهودنا الحالية. نقدم لكم لمحة عن المشاريع قيد التنفيذ، والابتكارات التي نقودها، والحلول التي نسعى لتقديمها. ابقوا على اطلاع دائم بمسيرتنا نحو تحقيق أهدافنا وإحداث فرق."}
               </p>
             </div>
             <div class="row g-4 justify-content-center">
               {dataArray.map((prd, idx) => (
                 <div
-                  class="col-lg-6 col-lg-6 col-xl-4 wow fadeInUp "
+                  class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp "
                   data-wow-delay={`${idx / 5}s`}
                 >
                   <div class="training-item">
-                    <div class="training-inner" style={{ height: "18rem" }}>
+                    <div class="training-inner" style={{ height: "24rem" }}>
                       <img
                         src={prd.url}
                         class="img-fluid w-100 rounded"
@@ -118,10 +118,10 @@ const News = () => {
                       >
                         {direction === "ltr" ? "Read More" : "اقرأ المزيد"}{" "}
                         <i
-                        class={`fas fa-arrow-${
-                          direction === "ltr" ? "right" : "left"
-                        } px-1`}
-                      ></i>
+                          class={`fas fa-arrow-${
+                            direction === "ltr" ? "right" : "left"
+                          } px-1`}
+                        ></i>
                       </a>
                     </div>
                   </div>
@@ -133,7 +133,7 @@ const News = () => {
                 class="btn btn-primary border-secondary rounded-0 py-3 px-5 wow fadeInUp "
                 data-wow-delay="0.1s"
                 to="/news"
-                onClick={()=>scroll(0,0)}
+                onClick={() => scroll(0, 0)}
               >
                 {direction === "ltr" ? "View All" : "عرض الكل"}
               </Link>
@@ -145,4 +145,4 @@ const News = () => {
   );
 };
 
-export default News;
+export default Projects;

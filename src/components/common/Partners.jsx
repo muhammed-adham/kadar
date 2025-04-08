@@ -23,7 +23,7 @@ const Partners = () => {
   ];
   return (
     <>
-      <div className="container-fluid testimonial overflow-hidden pt-5">
+      <div className="container-fluid testimonial overflow-hidden pt-5 bg-white">
         <div className="container py-5">
           <div
             className="section-title text-center mb-5 wow fadeInUp"
