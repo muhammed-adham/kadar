@@ -34,6 +34,7 @@ export const ThemeProvider = ({ children }) => {
   // Theme toggle handler
   const toggleHandler = () => {
     themeState === "dark" ? lightMode() : darkMode();
+    window.location.reload()
   };
 
   return (
