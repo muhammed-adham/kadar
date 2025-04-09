@@ -194,7 +194,7 @@ const About = () => {
           // Odd index: Second dev type
           return (
             <div
-              className="container-fluid overflow-hidden py-5 bg-white"
+              className="container-fluid overflow-hidden py-5"
               key={index}
             >
               <div className="container py-5">

@@ -190,12 +190,12 @@ const Header = () => {
 
           {/* <!--Nav Start--> */}
           <div
-            class={`collapse navbar-collapse position-relative gap-3 ${
+            class={`collapse navbar-collapse position-relative gap-3  ${
               isOpen ? "show" : ""
             } id="navbarCollapse`}
           >
             {/* <!--Main Links Start--> */}
-            <div class="navbar-nav me-auto py-0">
+            <div class="navbar-nav ms-auto py-0 ">
               {(direction === "ltr" ? pageLinks : pageLinksAr).map(
                 (link, idx) =>
                   link.dropdown ? (
@@ -310,7 +310,7 @@ const Header = () => {
             </div>
             {/* <!-- Search Start--> */}
             <button
-              class="btn btn-primary btn-md-square border-secondary start-0"
+              class="btn btn-primary btn-md-square border-secondary"
               data-bs-toggle="modal"
               data-bs-target="#searchModal"
             >

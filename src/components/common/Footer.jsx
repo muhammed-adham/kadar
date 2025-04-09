@@ -194,9 +194,9 @@ const Footer = () => {
                   {/* Dolor amet sit justo amet elitr clita ipsum elitr est. Lorem
                   ipsum dolor sit amet, consectetur adipiscing elit. */}
                 </p>
-                <div class="position-relative mx-auto rounded-pill">
+                <div class="position-relative mx-auto rounded-pill d-flex">
                   <input
-                    class="form-control border-0 rounded-0 w-100 py-2 ps-4 "
+                    class="form-control border-0 rounded-0 py-2 ps-4 h-100"
                     type="text"
                     placeholder={
                       direction === `ltr`
@@ -206,7 +206,7 @@ const Footer = () => {
                   />
                   <button
                     type="button"
-                    class="btn btn-primary  position-absolute top-0 end-0 h-100 rounded-0 border-0"
+                    class="btn btn-primary h-150 rounded-0 border-0 "
                   >
                     {direction === "ltr" ? `SignUp` : `اشتراك`}
                   </button>
