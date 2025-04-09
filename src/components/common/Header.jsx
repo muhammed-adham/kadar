@@ -190,12 +190,12 @@ const Header = () => {
 
           {/* <!--Nav Start--> */}
           <div
-            class={`collapse navbar-collapse position-relative gap-3  ${
+            class={`collapse navbar-collapse position-relative gap-3 justify-content-end ${
               isOpen ? "show" : ""
             } id="navbarCollapse`}
           >
             {/* <!--Main Links Start--> */}
-            <div class="navbar-nav ms-auto py-0 ">
+            <div class="navbar-nav py-0 ">
               {(direction === "ltr" ? pageLinks : pageLinksAr).map(
                 (link, idx) =>
                   link.dropdown ? (
