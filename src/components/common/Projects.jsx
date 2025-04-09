@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDirection } from "../../context/DirectionContext";
 import OverlayModal from "./OverlayModal";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 
 const Projects = () => {
   const { direction } = useDirection();
@@ -35,6 +35,8 @@ const Projects = () => {
       url: "/images/pro-4.jpg",
     },
   ];
+
+  const navigate=useNavigate()
 
   return (
     <>
@@ -112,7 +114,8 @@ const Projects = () => {
                       <a
                         class="btn btn-secondary rounded-pill text-white p-0"
                         onClick={() => {
-                          handleShow(prd);
+                          // handleShow(prd);
+                          navigate('/projects/single-project'), scroll(0,0)
                         }}
                         // href="#"
                       >
@@ -132,7 +135,7 @@ const Projects = () => {
               <Link
                 class="btn btn-primary border-secondary rounded-0 py-3 px-5 wow fadeInUp "
                 data-wow-delay="0.1s"
-                to="/news"
+                to="/projects"
                 onClick={() => scroll(0, 0)}
               >
                 {direction === "ltr" ? "View All" : "عرض الكل"}

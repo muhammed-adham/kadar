@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../common/Banner";
 import { useDirection } from "../../context/DirectionContext";
+import { useNavigate } from "react-router";
 
 const Category = () => {
   const dataArray = [
@@ -36,6 +37,8 @@ const Category = () => {
     },
   ];
   const { direction } = useDirection();
+
+  const navigate=useNavigate()
 
   return (
     <>
@@ -101,7 +104,10 @@ const Category = () => {
                     </p>
                     <a
                       class="btn btn-secondary rounded-pill text-white p-0"
-                      href="#"
+                      // href="#"
+                      onClick={()=>{
+                        navigate(`${prd.title.toLowerCase().split(" ").join("-")}`), scroll(0,0)
+                      }}
                     >
                       Explore More{" "}
                       <i

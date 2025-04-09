@@ -1098,4 +1098,13 @@ button {
   }
 }
 
+/* footer signup input btn*/
+.sing-up-footer-hover{
+  color: white;
+  background-color: #ff7417;
+}
+.sing-up-footer-hover:hover{
+  color: white;
+  background-color:#00a2ff !important;
+}
 /*** Customs End***/

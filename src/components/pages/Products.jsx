@@ -6,11 +6,13 @@ import QuickFilter from "../common/QuickFilter";
 import RadioBoxFilter from "../common/RadioBoxFilter";
 import { IoCloseCircleSharp } from "react-icons/io5";
 import { useDirection } from "../../context/DirectionContext";
-import { useLocation } from "react-router";
+import { useLocation, useNavigate } from "react-router";
 
 const Products = () => {
   const mediumBreakpoint = 768; // Bootstrap's medium breakpoint
   const { direction } = useDirection();
+
+  const navigate=useNavigate()
 
 
   const dataArray = [
@@ -302,7 +304,10 @@ const Products = () => {
                           <p className="mb-4 text-gray">{prd.desc}</p>
                           <a
                             className="btn btn-primary border-secondary rounded-0 text-white py-3 px-5"
-                            href="/single-product"
+                            // href="/single-product"
+                            onClick={()=>{
+                              navigate('/single-product'),scroll(0,0)
+                            }}
                           >
                             {direction === "ltr"
                               ? "Explore More"

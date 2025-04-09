@@ -206,7 +206,7 @@ const Footer = () => {
                   />
                   <button
                     type="button"
-                    class="btn btn-primary h-150 rounded-0 border-0 "
+                    class="btn  h-150 rounded-0 border-0 sing-up-footer-hover"
                   >
                     {direction === "ltr" ? `SignUp` : `اشتراك`}
                   </button>
